@@ -1,0 +1,16 @@
+{
+  "name": "front_live",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./CSS/style.css -o ./main.css",
+    "watch": "tailwindcss -i ./CSS/style.css -o ./main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.56.1",
+    "tailwindcss": "^3.2.4"
+  }
+}
